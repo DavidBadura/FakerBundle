@@ -71,6 +71,6 @@ class DavidBaduraFakerBundleTest extends \PHPUnit_Framework_TestCase
         $book = $container->get('test.provider.book');
         $this->assertInstanceOf('DavidBadura\FakerBundle\Tests\Provider\Book', $book);
 
-        $this->assertEquals(13, strlen($faker->ISBN));
+        $this->assertTrue($faker->ISBN > 0);
     }
 }
