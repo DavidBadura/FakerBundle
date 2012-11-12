@@ -1,7 +1,7 @@
 {
     "name": "davidbadura/faker-bundle",
     "description": "",
-    "keywords": ["symfony2", "faker"],
+    "keywords": ["symfony2", "faker", "fixtures"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [{

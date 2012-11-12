@@ -32,6 +32,20 @@ echo $faker->text;
 
 For more information, you can read the faker library [documentation](https://github.com/fzaninotto/Faker).
 
+Installation
+------------
+
+Add DavidBaduraFakerBundle in your composer.json
+
+``` js
+
+{
+    "require": {
+        "davidbadura/faker-bundle": "1.0.*"
+    }
+}
+
+```
 
 Bundle configuration
 --------------------
@@ -39,7 +53,7 @@ Bundle configuration
 ``` yaml
 # app/config/config.yml
 david_badura_faker:
-  locale: de_DE // default  en_EN
+  locale: de_DE #default: en_EN
 ```
 
 Add your own Provider
