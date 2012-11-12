@@ -18,7 +18,7 @@ class Book extends Base
 
     public function ISBN()
     {
-        return $this->generator->randomNumber(13);
+        return $this->generator->numberBetween(1000000000000, 9999999999999);
     }
 
 }
