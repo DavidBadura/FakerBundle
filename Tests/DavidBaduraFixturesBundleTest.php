@@ -26,6 +26,11 @@ class DavidBaduraFakerBundleTest extends \PHPUnit_Framework_TestCase
 
         $faker = $container->get('davidbadura_faker.faker');
         $this->assertInstanceOf('Faker\Generator', $faker);
+
+        $this->assertTrue(is_numeric($faker->randomDigit));
+        $this->assertTrue(is_numeric($faker->randomDigitNotNull));
+        $this->assertTrue(is_numeric($faker->randomNumber));
+        $this->assertTrue(is_numeric($faker->numerify));
     }
 
     public function testGermanBuild()
