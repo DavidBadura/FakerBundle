@@ -2,6 +2,7 @@ DavidBaduraFakerBundle
 =========================
 
 [![Build Status](https://secure.travis-ci.org/DavidBadura/FakerBundle.png)](http://travis-ci.org/DavidBadura/FakerBundle)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/DavidBadura/fakerbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 This bundle provide the [fzaninotto/Faker](https://github.com/fzaninotto/Faker), a PHP library that generates fake data for you.
 You can use this bundle in combination with [DavidBaduraFixturesBundle](https://github.com/DavidBadura/FixturesBundle).
