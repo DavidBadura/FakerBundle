@@ -48,6 +48,14 @@ Add DavidBaduraFakerBundle in your composer.json
 
 ```
 
+and modify your AppKernel
+
+```php
+if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+    $bundles[] = new DavidBadura\FakerBundle\DavidBaduraFakerBundle();
+}
+```
+
 Bundle configuration
 --------------------
 
