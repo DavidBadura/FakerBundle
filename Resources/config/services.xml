@@ -11,7 +11,7 @@
     <services>
         <service id="davidbadura_faker.factory" class="%davidbadura_faker.factory.class%" />
 
-        <service id="davidbadura_faker.faker" class="%davidbadura_faker.factory.class%">
+        <service id="davidbadura_faker.faker" class="%davidbadura_faker.faker.class%">
             <factory service="davidbadura_faker.factory" method="create" />
         </service>
     </services>
