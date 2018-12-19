@@ -20,7 +20,7 @@ before_script:
     - git config --global user.name "John Doe"
     - composer require symfony/symfony:${SYMFONY_VERSION}
 
-script: phpunit
+script: ./vendor/bin/phpunit
 
 matrix:
     allow_failures:
