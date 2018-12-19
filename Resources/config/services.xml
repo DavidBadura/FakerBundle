@@ -14,5 +14,8 @@
         <service id="davidbadura_faker.faker" class="%davidbadura_faker.factory.class%" public="true">
             <factory service="davidbadura_faker.factory" method="create" />
         </service>
+        
+        <service id="davidbadura_faker.faker" alias="Faker\Generator" public="true" />
+        <service id="davidbadura_faker.factory" alias="Faker\Generator" public="true" />
     </services>
 </container>
