@@ -1,6 +1,8 @@
 DavidBaduraFakerBundle
 =========================
 
+**The project is no longer supported.**
+
 [![Build Status](https://secure.travis-ci.org/DavidBadura/FakerBundle.png)](http://travis-ci.org/DavidBadura/FakerBundle)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/DavidBadura/fakerbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
